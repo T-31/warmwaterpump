@@ -5,18 +5,18 @@ const CACHE_NAME = 'static-cache-v1';
 
 // Add list of files to cache here.
 const FILES_TO_CACHE = [
-  '/offline.html',
-  '/index.html',
-  '/global.css',
-  '/build/bundle.css',
-  '/build/bundle.js',
-  '/build/bundle.js.map',
-  '/global.css',
-  '/pico.min.css',
-  '/pico.min.css.map',
-  '/images/assets/pump-off.png',
-  '/images/assets/pump-on.png',
-  '/images/icons/icon-512x512.png',
+  'offline.html',
+  'index.html',
+  'global.css',
+  'build/bundle.css',
+  'build/bundle.js',
+  'build/bundle.js.map',
+  'global.css',
+  'pico.min.css',
+  'pico.min.css.map',
+  'images/assets/pump-off.png',
+  'images/assets/pump-on.png',
+  'images/icons/icon-512x512.png',
 ];
 
 self.addEventListener('install', (evt) => {
